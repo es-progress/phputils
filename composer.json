@@ -1,0 +1,30 @@
+{
+    "name": "es-progress/utils",
+    "description": "Assorted utilities and helpers for vanilla PHP",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "utilities",
+        "vanilla"
+    ],
+    "homepage": "https://github.com/es-progress/phputils",
+    "authors": [
+        {
+            "name": "Sandor Semsey",
+            "email": "sandor@es-progress.hu",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/es-progress/phputils/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "EsProgress\\Utils\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "prefer-stable": true
+}
